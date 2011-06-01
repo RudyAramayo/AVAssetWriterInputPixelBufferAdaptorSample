@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0081151396B51700A437AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0081141396B51700A437AE /* UIKit.framework */; };
+		BD0081171396B51700A437AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0081161396B51700A437AE /* Foundation.framework */; };
+		BD0081191396B51700A437AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0081181396B51700A437AE /* CoreGraphics.framework */; };
+		BD00811F1396B51700A437AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD00811D1396B51700A437AE /* InfoPlist.strings */; };
+		BD0081211396B51700A437AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0081201396B51700A437AE /* main.m */; };
+		BD0081251396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0081241396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m */; };
+		BD0081291396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0081281396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m */; };
+		BD00812C1396B51700A437AE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD00812A1396B51700A437AE /* MainWindow_iPhone.xib */; };
+		BD0081301396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BD00812F1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m */; };
+		BD0081331396B51700A437AE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0081311396B51700A437AE /* MainWindow_iPad.xib */; };
+		BD00813B1396B52900A437AE /* Lotus.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0081391396B52900A437AE /* Lotus.png */; };
+		BD00813C1396B52900A437AE /* LotusNoAlpha.png in Resources */ = {isa = PBXBuildFile; fileRef = BD00813A1396B52900A437AE /* LotusNoAlpha.png */; };
+		BD0081401396B53F00A437AE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00813D1396B53F00A437AE /* CoreVideo.framework */; };
+		BD0081411396B53F00A437AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00813E1396B53F00A437AE /* AVFoundation.framework */; };
+		BD0081421396B53F00A437AE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00813F1396B53F00A437AE /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD0081101396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAssetWriterInputPixelBufferAdaptorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0081141396B51700A437AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD0081161396B51700A437AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD0081181396B51700A437AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD00811C1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVAssetWriterInputPixelBufferAdaptorSample-Info.plist"; sourceTree = "<group>"; };
+		BD00811E1396B51700A437AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD0081201396B51700A437AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD0081221396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAssetWriterInputPixelBufferAdaptorSample-Prefix.pch"; sourceTree = "<group>"; };
+		BD0081231396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.h; sourceTree = "<group>"; };
+		BD0081241396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m; sourceTree = "<group>"; };
+		BD0081271396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.h; path = iPhone/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BD0081281396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m; path = iPhone/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		BD00812B1396B51700A437AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		BD00812E1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.h; path = iPad/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BD00812F1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m; path = iPad/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m; sourceTree = "<group>"; };
+		BD0081321396B51700A437AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		BD0081391396B52900A437AE /* Lotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lotus.png; sourceTree = "<group>"; };
+		BD00813A1396B52900A437AE /* LotusNoAlpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LotusNoAlpha.png; sourceTree = "<group>"; };
+		BD00813D1396B53F00A437AE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BD00813E1396B53F00A437AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BD00813F1396B53F00A437AE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD00810D1396B51700A437AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0081151396B51700A437AE /* UIKit.framework in Frameworks */,
+				BD0081171396B51700A437AE /* Foundation.framework in Frameworks */,
+				BD0081191396B51700A437AE /* CoreGraphics.framework in Frameworks */,
+				BD0081401396B53F00A437AE /* CoreVideo.framework in Frameworks */,
+				BD0081411396B53F00A437AE /* AVFoundation.framework in Frameworks */,
+				BD0081421396B53F00A437AE /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0081051396B51700A437AE = {
+			isa = PBXGroup;
+			children = (
+				BD00811A1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample */,
+				BD0081131396B51700A437AE /* Frameworks */,
+				BD0081111396B51700A437AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0081111396B51700A437AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0081101396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0081131396B51700A437AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD00813D1396B53F00A437AE /* CoreVideo.framework */,
+				BD00813E1396B53F00A437AE /* AVFoundation.framework */,
+				BD00813F1396B53F00A437AE /* CoreMedia.framework */,
+				BD0081141396B51700A437AE /* UIKit.framework */,
+				BD0081161396B51700A437AE /* Foundation.framework */,
+				BD0081181396B51700A437AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD00811A1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample */ = {
+			isa = PBXGroup;
+			children = (
+				BD0081231396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.h */,
+				BD0081241396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m */,
+				BD0081391396B52900A437AE /* Lotus.png */,
+				BD00813A1396B52900A437AE /* LotusNoAlpha.png */,
+				BD0081261396B51700A437AE /* iPhone */,
+				BD00812D1396B51700A437AE /* iPad */,
+				BD00811B1396B51700A437AE /* Supporting Files */,
+			);
+			path = AVAssetWriterInputPixelBufferAdaptorSample;
+			sourceTree = "<group>";
+		};
+		BD00811B1396B51700A437AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD00811C1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample-Info.plist */,
+				BD00811D1396B51700A437AE /* InfoPlist.strings */,
+				BD0081201396B51700A437AE /* main.m */,
+				BD0081221396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD0081261396B51700A437AE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BD0081271396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.h */,
+				BD0081281396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m */,
+				BD00812A1396B51700A437AE /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BD00812D1396B51700A437AE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BD00812E1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.h */,
+				BD00812F1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m */,
+				BD0081311396B51700A437AE /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD00810F1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0081361396B51700A437AE /* Build configuration list for PBXNativeTarget "AVAssetWriterInputPixelBufferAdaptorSample" */;
+			buildPhases = (
+				BD00810C1396B51700A437AE /* Sources */,
+				BD00810D1396B51700A437AE /* Frameworks */,
+				BD00810E1396B51700A437AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAssetWriterInputPixelBufferAdaptorSample;
+			productName = AVAssetWriterInputPixelBufferAdaptorSample;
+			productReference = BD0081101396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0081071396B51700A437AE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BD00810A1396B51700A437AE /* Build configuration list for PBXProject "AVAssetWriterInputPixelBufferAdaptorSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD0081051396B51700A437AE;
+			productRefGroup = BD0081111396B51700A437AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD00810F1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD00810E1396B51700A437AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD00811F1396B51700A437AE /* InfoPlist.strings in Resources */,
+				BD00812C1396B51700A437AE /* MainWindow_iPhone.xib in Resources */,
+				BD0081331396B51700A437AE /* MainWindow_iPad.xib in Resources */,
+				BD00813B1396B52900A437AE /* Lotus.png in Resources */,
+				BD00813C1396B52900A437AE /* LotusNoAlpha.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD00810C1396B51700A437AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0081211396B51700A437AE /* main.m in Sources */,
+				BD0081251396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m in Sources */,
+				BD0081291396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m in Sources */,
+				BD0081301396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD00811D1396B51700A437AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD00811E1396B51700A437AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD00812A1396B51700A437AE /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD00812B1396B51700A437AE /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BD0081311396B51700A437AE /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0081321396B51700A437AE /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0081341396B51700A437AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD0081351396B51700A437AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD0081371396B51700A437AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample-Prefix.pch";
+				INFOPLIST_FILE = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD0081381396B51700A437AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample-Prefix.pch";
+				INFOPLIST_FILE = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD00810A1396B51700A437AE /* Build configuration list for PBXProject "AVAssetWriterInputPixelBufferAdaptorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0081341396B51700A437AE /* Debug */,
+				BD0081351396B51700A437AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0081361396B51700A437AE /* Build configuration list for PBXNativeTarget "AVAssetWriterInputPixelBufferAdaptorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0081371396B51700A437AE /* Debug */,
+				BD0081381396B51700A437AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0081071396B51700A437AE /* Project object */;
+}
