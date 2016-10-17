@@ -7,6 +7,7 @@
 //
 
 #import "AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.h"
+#import "FirstViewController.h"
 
 @implementation AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate
 
@@ -18,6 +19,9 @@
     [self.window makeKeyAndVisible];
     
     [self testCompressionSession];
+
+    FirstViewController *firstVC = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    [self.window setRootViewController:firstVC];
 
     return YES;
 }
@@ -79,8 +83,9 @@
             if(++frame >= 120)
             {
                 [writerInput markAsFinished];
-                [videoWriter finishWriting];
-                [videoWriter release];
+                [videoWriter finishWritingWithCompletionHandler:^{
+                    [videoWriter release];
+                }];
                 break;
             }
             
@@ -97,7 +102,7 @@
     }];
     
     NSLog(@"outside for loop");
-    
+    NSLog(@"File location: %@Documents", NSHomeDirectory());
 }
 
 

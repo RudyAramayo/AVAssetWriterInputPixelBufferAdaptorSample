@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382484.250747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382484.250747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382484.250747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-testCompressionSession"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382770.519798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-testCompressionSession"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382800.464569"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-testCompressionSession"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382801.362645"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "-testCompressionSession"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate testCompressionSession]"
+                  moduleName = "AVAssetWriterInputPixelBufferAdaptorSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariffikriabas/Documents/Developer/AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+                  timestampString = "498382801.373012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate testCompressionSession]"
+                  moduleName = "AVAssetWriterInputPixelBufferAdaptorSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ariffikriabas/Documents/Developer/AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+                  timestampString = "498382801.374422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m"
+            timestampString = "498382802.412648"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "-testCompressionSession"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -22,6 +22,9 @@
 		BD0081401396B53F00A437AE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00813D1396B53F00A437AE /* CoreVideo.framework */; };
 		BD0081411396B53F00A437AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00813E1396B53F00A437AE /* AVFoundation.framework */; };
 		BD0081421396B53F00A437AE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00813F1396B53F00A437AE /* CoreMedia.framework */; };
+		E7FD5A941DB4B5D600071EFE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD5A921DB4B5D600071EFE /* FirstViewController.m */; };
+		E7FD5A951DB4B5D600071EFE /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FD5A931DB4B5D600071EFE /* FirstViewController.xib */; };
+		E7FD5A971DB4D91800071EFE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FD5A961DB4D91800071EFE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,10 @@
 		BD00813D1396B53F00A437AE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		BD00813E1396B53F00A437AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BD00813F1396B53F00A437AE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E7FD5A911DB4B5D600071EFE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E7FD5A921DB4B5D600071EFE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E7FD5A931DB4B5D600071EFE /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		E7FD5A961DB4D91800071EFE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 		BD0081051396B51700A437AE = {
 			isa = PBXGroup;
 			children = (
+				E7FD5A961DB4D91800071EFE /* Default-568h@2x.png */,
 				BD00811A1396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSample */,
 				BD0081131396B51700A437AE /* Frameworks */,
 				BD0081111396B51700A437AE /* Products */,
@@ -123,6 +131,9 @@
 		BD0081261396B51700A437AE /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				E7FD5A911DB4B5D600071EFE /* FirstViewController.h */,
+				E7FD5A921DB4B5D600071EFE /* FirstViewController.m */,
+				E7FD5A931DB4B5D600071EFE /* FirstViewController.xib */,
 				BD0081271396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.h */,
 				BD0081281396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m */,
 				BD00812A1396B51700A437AE /* MainWindow_iPhone.xib */,
@@ -188,9 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD00811F1396B51700A437AE /* InfoPlist.strings in Resources */,
+				E7FD5A951DB4B5D600071EFE /* FirstViewController.xib in Resources */,
 				BD00812C1396B51700A437AE /* MainWindow_iPhone.xib in Resources */,
 				BD0081331396B51700A437AE /* MainWindow_iPad.xib in Resources */,
 				BD00813B1396B52900A437AE /* Lotus.png in Resources */,
+				E7FD5A971DB4D91800071EFE /* Default-568h@2x.png in Resources */,
 				BD00813C1396B52900A437AE /* LotusNoAlpha.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +217,7 @@
 			files = (
 				BD0081211396B51700A437AE /* main.m in Sources */,
 				BD0081251396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate.m in Sources */,
+				E7FD5A941DB4B5D600071EFE /* FirstViewController.m in Sources */,
 				BD0081291396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPhone.m in Sources */,
 				BD0081301396B51700A437AE /* AVAssetWriterInputPixelBufferAdaptorSampleAppDelegate_iPad.m in Sources */,
 			);
@@ -243,9 +257,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -258,7 +272,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -268,7 +283,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -276,7 +290,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,9 +312,12 @@
 		BD0081381396B51700A437AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "AVAssetWriterInputPixelBufferAdaptorSample/AVAssetWriterInputPixelBufferAdaptorSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -325,6 +342,7 @@
 				BD0081381396B51700A437AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
